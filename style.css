@@ -51,7 +51,7 @@ body {
 .accordion__content-line summary {
   color: #4a4b5e;
 }
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 58.75rem) {
   .accordion__content-line summary:hover {
     color: #f47c57;
   }
@@ -82,19 +82,19 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
+  margin-top: 1.875rem;
 }
-@media screen and (orientation: portrait) and (max-height: 600px) {
+@media screen and (orientation: portrait) and (max-height: 37.5rem) {
   body {
-    margin-top: 110px;
+    margin-top: 6.875rem;
   }
 }
-@media screen and (orientation: landscape) and (max-width: 900px) and (max-height: 400px) {
+@media screen and (orientation: landscape) and (max-width: 56.25rem) and (max-height: 25rem) {
   body {
-    margin-top: 130px;
+    margin-top: 8.125rem;
   }
 }
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 58.75rem) {
   body {
     margin-top: 0;
   }
@@ -102,15 +102,15 @@ body {
 
 .accordion__card {
   position: relative;
-  width: min(90%, 21.875rem);
+  width: Min(90%, 21.875rem);
   background: white;
   border-radius: 25px;
   padding: 7.5rem 1.5625rem 3.25rem 1.5625rem;
   box-shadow: 0 22px 30px rgba(0, 0, 0, 0.3);
 }
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 58.75rem) {
   .accordion__card {
-    width: min(90%, 53.75rem);
+    width: Min(90%, 53.75rem);
     height: 27.25rem;
     padding: 4.5rem 5.3125rem 4.5rem 0;
     background-image: url(./images/bg-pattern-desktop.svg);
@@ -123,13 +123,13 @@ body {
   text-align: center;
   margin-bottom: 1.875rem;
 }
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 58.75rem) {
   .accordion__card h1 {
     text-align: left;
   }
 }
 
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 58.75rem) {
   .row {
     display: flex;
     justify-content: space-between;
@@ -146,7 +146,7 @@ body {
     background: url(./images/illustration-box-desktop.svg) no-repeat;
     background-size: 171px 164px;
     width: 10.6875rem;
-    height: 6.75rem;
+    height: 6.25rem;
     top: 50%;
     left: 0;
     z-index: 40;
@@ -166,7 +166,7 @@ body {
   width: 15rem;
   height: 12.5rem;
 }
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 58.75rem) {
   #card__illus {
     top: 0;
     left: 0;
@@ -189,7 +189,7 @@ body {
   transform: translate3d(-50%, 50%, 0);
   z-index: -1;
 }
-@media screen and (min-width: 940px) {
+@media screen and (min-width: 58.75rem) {
   #card__illus::before {
     content: none;
   }
