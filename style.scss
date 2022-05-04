@@ -143,7 +143,7 @@ body {
   background: hsl(1, 100%, 100%);
   border-radius: 25px;
   padding: convertToRem(120) convertToRem(25) convertToRem(52) convertToRem(25);
-  box-shadow: 0 22px 30px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 22px 30px r gba(0, 0, 0, 0.3);
 
   @media screen and (min-width: $large-screen) {
     width: Min(90%, convertToRem(860));
